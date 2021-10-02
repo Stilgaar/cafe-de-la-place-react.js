@@ -1,0 +1,32 @@
+ <div className="degrealcool"  id="degreAlcool"></div>
+ <select className="form-select form-select-sm border border-5" aria-label=".form-select-sm example">
+   <option selected>Choisir le type de boisson</option>
+   <option  id="alcool" className="alcool">Alcool</option>
+   <option  id="pasalcool" className="pasalcool">Sans Alcool</option>
+   <option  id="autre" className="autre">Autre</option>
+ </select>
+
+
+
+
+function checkLeFormulaire() {
+    let localFormulaires = localStorage.getItem("formulaires");
+    if (localFormulaires) {
+        let parseFormulaire = JSON.parse(localFormulaires)
+        return parseFormulaire;
+    } else {
+        return ([]);
+    };
+}
+   
+const [formulaires, setFormulaires] = useState(checkLeFormulaire());
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

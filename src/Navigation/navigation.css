@@ -1,0 +1,14 @@
+img {
+    height: 50px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    border-bottom:5px solid orange;
+}
+
+.link {
+    text-decoration: none;
+    color:ivory;
+    border-bottom: 2px solid orange;
+}

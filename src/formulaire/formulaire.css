@@ -1,0 +1,16 @@
+.App {
+    width: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+}
+
+.degre {
+     margin : auto; 
+}
+
+.elementzs {
+
+margin-bottom: 3px;
+}
